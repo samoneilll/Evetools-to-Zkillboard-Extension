@@ -20,17 +20,18 @@ It works by simply waiting 1 second after the page has loaded to allow all the k
 
 ### Chrome Installation Instructions
 
-1. Download the latest zip file from the [Releases](https://github.com/samoneilll/Evetools-to-Zkillboard-Extension/releases/tag/v1.0) page
+1. Download the [latest zip file](https://github.com/samoneilll/Evetools-to-Zkillboard-Extension/releases/tag/v1.0) from the Releases page
 1. Extract the zip somewhere on your PC
-1. In Chrome go to [Extensions](//chrome://extensions/), turn on the "Developer mode" toggle at the top right
+1. In Chrome nagivate to `chrome://extensions/`
+1. Turn on the "Developer mode" toggle at the top right
 1. Click "Load Unpacked", and select the folder that contains the unzipped files
 1. Enjoy
 
 ### Firefox Installation Instructions
 
-1. Download the latest zip file from the [Releases](https://github.com/samoneilll/Evetools-to-Zkillboard-Extension/releases/tag/v1.0) page
+1. Download the [latest zip file](https://github.com/samoneilll/Evetools-to-Zkillboard-Extension/releases/tag/v1.0) from the Releases page
 1. Extract the zip somewhere on your PC
-1. In Firefox navigate to `about:debugging` and click "This firefox", or [click here](//about:debugging#/runtime/this-firefox)
+1. In Firefox navigate to `about:debugging` and click "This firefox"
 1. Click "Load Temporary Add-on..."
 1. Select the `manifest.json` file from the extracted files
 1. Enjoy
