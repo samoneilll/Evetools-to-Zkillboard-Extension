@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "evetools to zkillboard",
+  "description": "This extension will redirect you to zkill when clicking on a killmail/pilot/corp/etc from br.evetools.org, rather than using the km.evetools.org killboard",
+  "version": "1.0",
+  "content_scripts": [
+      {
+          "matches": [
+              "https://*.evetools.org/*"
+          ],
+          "js": [
+              "content_script.js"
+          ],
+          "run_at": "document_idle"
+      }
+  ]
+}
